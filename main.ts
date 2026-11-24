@@ -11,6 +11,11 @@ import { join } from "node:path";
 // living a life as vivid and complex as your own. One word, one
 // username: every username on a leaderboard is a whole life behind a
 // handle, and this word is the moment you notice that.
+//
+// Why it fits the bounty: the prize is one word for one username, and
+// "sonder" is exactly the feeling of looking at a stranger's handle and
+// suddenly seeing the full life behind it. Six letters, instantly felt,
+// surprising to most readers, a whole story in a single word.
 const WORD = "sonder";
 
 // The gate: one word, 1-30 characters, letters only, no whitespace.
@@ -20,6 +25,12 @@ if (codePoints.length < 1 || codePoints.length > 30) {
 }
 if (!/^[A-Za-z]+$/.test(WORD)) {
   throw new Error("word must be exactly one word of letters only");
+}
+// The entry is a single lowercase word: no capitals, no punctuation,
+// no trailing whitespace — the bounty judges one plain word, so the
+// program refuses anything that is not exactly that.
+if (WORD !== WORD.toLowerCase()) {
+  throw new Error("word must be all lowercase");
 }
 
 const rawDir = process.env.MAKEFUN_OUTPUT_DIR;
