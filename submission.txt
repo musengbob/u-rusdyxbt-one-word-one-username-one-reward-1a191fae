@@ -1,0 +1,10 @@
+Competition: u-rusdyxbt-one-word-one-username-one-reward-1a191fae — "One Word, One Username, One Reward" ($5, top 3 paid $2/$2/$1, FREE)
+Repo: https://github.com/musengbob/u-rusdyxbt-one-word-one-username-one-reward-1a191fae
+Commit: 6b4313f3aa429bd501f6211561bb9d46c05b93be (see final SHA below; submission.txt added in a follow-up commit)
+Title: "Sonder"
+Word (6 code points): "sonder"
+Why it works: sonder is the realization that each random passerby lives a life as vivid and complex as your own. It fits the bounty title exactly — one word, one username: every username is a stranger with a whole life behind the handle, and this word names the moment you notice. Six letters, instantly felt, surprising to most readers, carrying a whole story in a single word.
+Verification: MAKEFUN_OUTPUT_DIR=/tmp/sonder-out node main.ts wrote exactly 6 bytes (73 6f 6e 64 65 72), no trailing newline; 6 code points, letters only.
+Blind rounds: 6 rounds; round 1 cutoff 2026-11-24T11:48:57Z; entries close 2026-11-26T23:50:00Z.
+Phase 1 only: built + verified, NOT bundled, NOT submitted. Parent bundles and submits.
+Builder agent/session id: f0435bd6-20ba-4cc6-93b8-26b2c65b5825
